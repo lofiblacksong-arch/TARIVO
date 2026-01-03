@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARIVO Industries Ltd.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+            color: #222;
+        }
+        header {
+            background: #0a0a0a;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #f0a500;
+        }
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+            background: linear-gradient(135deg, #0a0a0a, #222);
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        section {
+            padding: 80px 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #0a0a0a;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #444;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+        .service-box {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            flex: 1 1 250px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            background: #0a0a0a;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        footer a {
+            color: #f0a500;
+            text-decoration: none;
+        }
+        @media(max-width: 768px){
+            .hero h2 {
+                font-size: 36px;
+            }
+            section h3 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TARIVO</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to TARIVO Industries Ltd.</h2>
+    <p>Founded by <strong>Tabib Siddique</strong> & <strong>Rafi</strong>, TARIVO Industries Ltd. stands for originality, innovation, and refined vision. We deliver excellence across industries with trust, professionalism, and forward-thinking leadership.</p>
+</section>
+
+<section id="about">
+    <h3>About Us</h3>
+    <p>TARIVO Industries Ltd. is a visionary company founded by <strong>Tabib Siddique</strong> and <strong>Rafi</strong>. Our mission is to combine innovation, creativity, and professionalism to provide exceptional solutions across diverse sectors. TARIVO represents our dedication to quality, reliability, and growth.</p>
+</section>
+
+<section id="services">
+    <h3>Our Services</h3>
+    <div class="services">
+        <div class="service-box">
+            <h4>Consultancy</h4>
+            <p>Professional guidance to achieve business growth and operational excellence.</p>
+        </div>
+        <div class="service-box">
+            <h4>Trading</h4>
+            <p>Import, export, and distribution solutions tailored to your industry needs.</p>
+        </div>
+        <div class="service-box">
+            <h4>Technology</h4>
+            <p>Innovative tech solutions designed to streamline processes and enhance productivity.</p>
+        </div>
+        <div class="service-box">
+            <h4>Manufacturing</h4>
+            <p>High-quality production services with a focus on efficiency and sustainability.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h3>Contact Us</h3>
+    <p>Email: <a href="mailto:info@tarivo.com">info@tarivo.com</a><br>
+       Phone: +880 1XXXXXXXXX<br>
+       Address: Dhaka, Bangladesh</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 TARIVO Industries Ltd. | Founded by Tabib & Rafi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
